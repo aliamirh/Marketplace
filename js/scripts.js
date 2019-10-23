@@ -9,11 +9,18 @@ $(document).ready(function(){
     // $("#input-appointment").text(appointment);
     //
     // $("#confirmation").show();
+    var person = $("#name").val();
+    var address = $("#address").val();
     var meatType = $("#meat").val();
     var topping1 = $("#top1").val();
     var topping2 = $("#top2").val();
-    console.log(meatType, topping1, topping2);
-
+    console.log(meatType, topping1, topping2, person, address);
+    $("#outputPerson").text(person);
+    $("#outputMeat").text(meatType);
+    $("#outputTopping1").text(topping1);
+    $("#outputTopping2").text(topping2);
+    $("#outputAddress").text(address);
+    $("#reciept").show();
   event.preventDefault();
   });
 });
