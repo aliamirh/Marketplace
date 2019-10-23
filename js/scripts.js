@@ -24,3 +24,9 @@ $(document).ready(function(){
   event.preventDefault();
   });
 });
+
+
+// change val in options to correct prices
+// sum the total val of the order
+// with each val, correspond to correct item
+// print items
